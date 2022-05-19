@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30614" started-at="2022-05-19T15:14:28 IST" finished-at="2022-05-19T15:14:59 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30614" started-at="2022-05-19T15:14:28 IST" finished-at="2022-05-19T15:14:59 IST">
+      <class name="com.digitalproject.DigitalProjectTestCases">
+        <test-method status="PASS" signature="launchBrowser()[pri:-20, instance:com.digitalproject.DigitalProjectTestCases@1f021e6c]" name="launchBrowser" duration-ms="7326" started-at="2022-05-19T15:14:28 IST" finished-at="2022-05-19T15:14:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:-19, instance:com.digitalproject.DigitalProjectTestCases@1f021e6c]" name="verifyLoginPage" duration-ms="459" started-at="2022-05-19T15:14:35 IST" finished-at="2022-05-19T15:14:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method status="PASS" signature="verifyUsername()[pri:-18, instance:com.digitalproject.DigitalProjectTestCases@1f021e6c]" name="verifyUsername" duration-ms="5073" started-at="2022-05-19T15:14:36 IST" finished-at="2022-05-19T15:14:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsername -->
+        <test-method status="PASS" signature="verifyPassword()[pri:-17, instance:com.digitalproject.DigitalProjectTestCases@1f021e6c]" name="verifyPassword" duration-ms="3184" started-at="2022-05-19T15:14:41 IST" finished-at="2022-05-19T15:14:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPassword -->
+        <test-method status="PASS" signature="verifyLoginButton()[pri:-16, instance:com.digitalproject.DigitalProjectTestCases@1f021e6c]" name="verifyLoginButton" duration-ms="6381" started-at="2022-05-19T15:14:44 IST" finished-at="2022-05-19T15:14:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButton -->
+        <test-method status="PASS" signature="windowMaximizes()[pri:-15, instance:com.digitalproject.DigitalProjectTestCases@1f021e6c]" name="windowMaximizes" duration-ms="364" started-at="2022-05-19T15:14:50 IST" finished-at="2022-05-19T15:14:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximizes -->
+        <test-method status="PASS" signature="verifyFillingForm()[pri:-14, instance:com.digitalproject.DigitalProjectTestCases@1f021e6c]" name="verifyFillingForm" duration-ms="7675" started-at="2022-05-19T15:14:51 IST" finished-at="2022-05-19T15:14:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFillingForm -->
+        <test-method status="PASS" signature="verifyApplicationInformation()[pri:-13, instance:com.digitalproject.DigitalProjectTestCases@1f021e6c]" name="verifyApplicationInformation" duration-ms="97" started-at="2022-05-19T15:14:59 IST" finished-at="2022-05-19T15:14:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationInformation -->
+      </class> <!-- com.digitalproject.DigitalProjectTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
