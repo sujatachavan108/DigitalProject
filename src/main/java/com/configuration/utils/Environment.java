@@ -36,6 +36,8 @@ public class Environment {
 		prop.getProperty("app_password");
 
 	}
+	
+	
 
 	public static void main(String[] args) throws FileNotFoundException {
 		new Environment().getAppUrl();

@@ -6,15 +6,17 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
 import com.config.digital.UIKeywords;
+import com.configuration.BaseTestCase;
 
-public class DigitalProjectTestCases {
+public class DigitalProjectTestCases extends BaseTestCase {
 	public RemoteWebDriver driver = null;
-
+	/*
 	@Test(priority = -21)
 	public static void launchBrowser() {
 		UIKeywords.openBrowser("chrome");
-		UIKeywords.launchUrl("http://gpyenikoni.g-seva.com/login");
-	}
+	    //UIKeywords.launchUrl("http://gpyenikoni.g-seva.com/login");
+		
+	}*/
 
 	@Test(priority = -20)
 	public static void verifyLoginPage() {

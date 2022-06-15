@@ -31,6 +31,13 @@ public class UIKeywords {
 		driver.get(url);
 	}
 
+	
+	public static void click(String locator) {
+		System.out.println("Locator :"+locator);
+		String locatorType=locator.split("##")[0];
+		String locatorValue=locator.split("##")[1];
+		
+	}
 	public static void clickOn(String locator) {
 		driver.findElement(By.cssSelector(locator)).click();/**
 															 * if (locator.equalsIgnoreCase("Xpath")) {
@@ -43,15 +50,17 @@ public class UIKeywords {
 	}
 
 	public static void userName(String userName) {
-		driver.findElement(By.cssSelector(userName)).sendKeys("N");
+		driver.findElement(By.cssSelector(userName));
+		//driver.findElement(app_username);
 	}
 
 	public static void passWord(String passWord) {
-		driver.findElement(By.cssSelector(passWord)).sendKeys("a");
+		driver.findElement(By.cssSelector(passWord));
 	}
 
 	public static void clickLoginBtn(String loginButton) {
 		driver.findElement(By.cssSelector(loginButton)).click();
+	
 	}
 
 	public static void maxmizeWindow() {
@@ -113,6 +122,10 @@ public class UIKeywords {
 
 	public static void okButton(String okBtn) {
 		driver.findElement(By.cssSelector(okBtn)).click();
+	}
+
+	public static void closeBrowser() {
+		driver.close();
 	}
 
 }
