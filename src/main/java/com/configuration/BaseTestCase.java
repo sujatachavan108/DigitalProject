@@ -11,10 +11,7 @@ import com.configuration.utils.OR;
 
 public class BaseTestCase {
 	
-	private void syso() {
-		System.out.println("No one can accesss this method");
-
-	}
+	
 	public static Environment env = new Environment();
 	public static OR objectRepo = new OR();
 

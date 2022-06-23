@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.digitalproject.DigitalProjectTestCases">
+      <class name="com.digitalproject.HomePageTestCase">
         <methods>
-          <include name="verifyOkButton"/>
+          <include name="m1"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.digitalproject.DigitalProjectTestCases -->
+      </class> <!-- com.digitalproject.HomePageTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -18,6 +18,8 @@ public class DigitalProjectTestCases extends BaseTestCase {
 		
 	}*/
 
+	
+	
 	@Test(priority = -20)
 	public static void verifyLoginPage() {
 		UIKeywords.clickOn("button#login");
