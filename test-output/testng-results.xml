@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7674" started-at="2022-06-23T19:59:51 IST" finished-at="2022-06-23T19:59:59 IST">
+  <suite name="Default suite" duration-ms="13314" started-at="2022-06-27T14:41:59 IST" finished-at="2022-06-27T14:42:13 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7674" started-at="2022-06-23T19:59:51 IST" finished-at="2022-06-23T19:59:59 IST">
+    <test name="Default test" duration-ms="13314" started-at="2022-06-27T14:41:59 IST" finished-at="2022-06-27T14:42:13 IST">
       <class name="com.digitalproject.HomePageTestCase">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.digitalproject.HomePageTestCase@7d8995e]" name="openBrowser" is-config="true" duration-ms="6541" started-at="2022-06-23T19:59:51 IST" finished-at="2022-06-23T19:59:58 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.digitalproject.HomePageTestCase@7d8995e]" name="openBrowser" is-config="true" duration-ms="11396" started-at="2022-06-27T14:41:59 IST" finished-at="2022-06-27T14:42:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="m1()[pri:0, instance:com.digitalproject.HomePageTestCase@7d8995e]" name="m1" duration-ms="663" started-at="2022-06-23T19:59:58 IST" finished-at="2022-06-23T19:59:59 IST">
+        <test-method status="PASS" signature="m1()[pri:0, instance:com.digitalproject.HomePageTestCase@7d8995e]" name="m1" duration-ms="1268" started-at="2022-06-27T14:42:11 IST" finished-at="2022-06-27T14:42:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.digitalproject.HomePageTestCase@7d8995e]" name="closeBrowser" is-config="true" duration-ms="132" started-at="2022-06-23T19:59:59 IST" finished-at="2022-06-23T19:59:59 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.digitalproject.HomePageTestCase@7d8995e]" name="closeBrowser" is-config="true" duration-ms="243" started-at="2022-06-27T14:42:12 IST" finished-at="2022-06-27T14:42:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
